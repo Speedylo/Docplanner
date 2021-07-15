@@ -1,0 +1,151 @@
+* {
+    color: grey;
+}
+
+.navbar {
+    position: sticky;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.navbar a {
+    color: grey;
+    text-decoration: none;
+    margin: 10px;
+    font-family: "Zen tokyo zoo";
+}
+
+a:hover {
+    color: #00b39b;
+}
+
+#Aboutus, h1 {
+    color: #00b39b;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Source sans pro";
+}
+
+#Logo {
+    position: sticky;
+    float: left;
+    top: 0;
+}
+
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Forpatients {
+    background-color: #00b39b;
+    width: 300px;
+    height: 300px;
+    border-style: none;
+    border-radius: 15px;
+}
+
+#Fordoctors {
+    background-color: #3d83df;
+    width: 300px;
+    height: 300px;
+    border-style: none;
+    border-radius: 15px;
+}
+
+#Forclinics {
+    background-color: #1b2734;
+    width: 300px;
+    height: 300px;
+    border-style: none;
+    border-radius: 15px;
+}
+
+#Cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2, h3 {
+    color: white;
+    font-family: "Source sans pro";
+    margin: 20px;
+}
+
+select {
+    margin: 20px;
+    border: none;
+    color: white;
+}
+
+#Forpatients select{
+    background-color: #00b39b;
+}
+
+#Fordoctors select {
+    background-color: #3d83df;
+}
+
+#Forclinics select {
+    background-color: #1b2734;
+}
+
+#Paragraphe {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+}
+
+.Cards2 { 
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+#Active, #Unique, #Appointments, #Leader {
+    background-color: white;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+#Cards3 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+button {
+    color: white;
+    background-color: #3d83df;
+    border-style: none;
+    border-radius: 4px;
+}
+
+#btn {
+    width: 210px;
+    height: 40px;
+}
+
+footer{
+    text-align: center;
+}
+
+.Cities {
+    border-style: none;
+    border-radius: 5px;
+}
+
+#W
