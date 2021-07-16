@@ -2,6 +2,7 @@
 <head>
     <meta charset='utf-8'>
     <title> Docplanner Group </title>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="https://media-exp3.licdn.com/dms/image/C4E0BAQFOWnbru99f5w/company-logo_200_200/0/1519905374816?e=2159024400&v=beta&t=goWRt8fbINQIgKSjLVEHcaOnlRBMEX5h1hwNGI47WnI">
     <link rel="stylesheet" href="Docplanner.css">
     <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Roboto:wght@100&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
@@ -13,62 +14,209 @@
         <div class="navbar" >
         <a href="" id="Logo"> <img src="https://www.docplanner.com/img/logo-default-group-en.svg?v=1" width="268" height="33"/> </a>
         <div class="container">
-        <a href="" id="Aboutus"> About us</a>
-        <a href=""> Career</a>
-        <a href=""> Departments </a>
+        <a href="https://www.docplanner.com/about-us" id="Aboutus"> About us</a>
+        <a href="https://www.docplanner.com/career"> Career</a>
+        <a href="" id="Departments"> Departments </a>
+        <ul id="list">
+            <li> <a href=""> Marketing & PR </a> </li>
+            <li> <a href=""> Success & Sales </a>  </li>
+            <li> <a href=""> IT , Product, Data </a>  </li>
+            <li> <a href=""> Finance & Administration </a>  </li>
+            <li> <a href=""> HR & More </a>  </li>
+        </ul>
+        
     </div>
         </div>
+    </nav>
 
         <main>
-                <img id="image" src="https://media-exp3.licdn.com/dms/image/C4E0BAQFOWnbru99f5w/company-logo_200_200/0/1519905374816?e=2159024400&v=beta&t=goWRt8fbINQIgKSjLVEHcaOnlRBMEX5h1hwNGI47WnI" width="40px" height="39px"/>
-                <h1> Making the health experience more human </h1>
-        <section> 
+        <!--Header-->
+        <img id="image" src="https://media-exp3.licdn.com/dms/image/C4E0BAQFOWnbru99f5w/company-logo_200_200/0/1519905374816?e=2159024400&v=beta&t=goWRt8fbINQIgKSjLVEHcaOnlRBMEX5h1hwNGI47WnI" width="40px" height="39px"/>
+        <h1> Making the health experience more human </h1>
+        <section id="Paragraphe"> 
             <p> We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere. </p>
             <p> We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence, but also to devote their time to what really matters: their patients. </p>
         </section>
         
+        <!--Cards-->
         <div id="Cards">
         <div id="Forpatients">
             <h2> For patients </h2>
-            <h3> Find a doctor, book a visit and solve any health-related doubt </h3>
-        </div>
-
-        <div id="Fordoctors">
-            <h2> For doctors </h2>
-            <h3> Save time managing visits and cut no-shows by half </h3>
+            <h3> Find a doctor, book a visit and solve any health-related doubt</h3> <br><br><br><br>
             <select> 
                 <option value="Choose country"> Choose country </option>
                 <option value="Argentina"> Argentina </option>
                 <option value="Brazil"> Brazil </option> 
                 <option value="Chile"> Chile </option>
-                <option value="Colombia"> Colombia </option> 
+                <option value="Colombia"> Colombia </option>
+                <option value="Czech"> Czech </option> 
+                <option value="Italy"> Italy </option> 
+                <option value="Mexico"> Mexico </option> 
+                <option value="Peru"> Peru </option>  
+                <option value="Poland"> Poland </option> 
+                <option value="Portugal"> Portugal </option> 
+                <option value="Spain"> Spain </option> 
+                <option value="Turkey"> Turkey </option> 
+            </select>
+        </div>
+
+        <div id="Fordoctors">
+            <h2> For doctors </h2>
+            <h3> Save time managing visits and cut no-shows by half </h3> <br><br><br><br>
+            <select> 
+                <option value="Choose country"> Choose country </option>
+                <option value="Argentina"> Argentina </option>
+                <option value="Brazil"> Brazil </option> 
+                <option value="Chile"> Chile </option>
+                <option value="Colombia"> Colombia </option>
+                <option value="Czech"> Czech </option> 
+                <option value="Italy"> Italy </option> 
+                <option value="Mexico"> Mexico </option> 
+                <option value="Peru"> Peru </option>  
+                <option value="Poland"> Poland </option> 
+                <option value="Portugal"> Portugal </option> 
+                <option value="Spain"> Spain </option> 
+                <option value="Turkey"> Turkey </option> 
             </select>
         </div>
 
         <div id="Forclinics">
             <h2> For clinics </h2>
-            <h3> Deliver an exceptional patient experience in your clinic </h3>
+            <h3> Deliver an exceptional patient experience in your clinic </h3> <br> 
+            <select>
+                <option value="2 to 20 specialists"> 2 to 20 specialists </option>
+                <option value="Brazil"> Brazil </option>
+                <option value="Czech"> Czech </option>
+                <option value="Italy"> Italy </option>
+                <option value="Mexico"> Mexico </option>
+                <option value="Poland"> Poland </option>
+                <option value="Spain"> Spain </option>
+                <option value="Turkey"> Turkey </option>
+            </select>
+
             <select> 
-                <option value="Choose country"> Choose country </option>
-                <option value="Argentina"> Argentina </option>
+                <option value="More than 20 specialists"> More than 20 specialists </option>
                 <option value="Brazil"> Brazil </option> 
-                <option value="Chile"> Chile </option>
-                <option value="Colombia"> Colombia </option> 
+                <option value="Italy"> Italy </option>
+                <option value="Mexico"> Mexico</option>
+                <option value="Poland"> Poland</option> 
+                <option value="Spain"> Spain</option>  
             </select>
         </div>
     </div>
-        </main>
-    </nav>
 
+    <!--A compléter avec les images-->
+    <section>
+        <h1> We are a global company with local culture</h1>
+    </section>
+    <!--A compléter avec les images-->
 
+    
+    <section style="background-color: #e5faf8;" id="Middle">
+        <h1>The world's biggest healthcare platform</h1>
+        <p> We work from 7 offices all over the world, bringing Docplanner Group to life in a dozen countries.</p>
+        
+        
+        <!--Second Cards-->
+        <div id="Leader">
+            <h1> Leader in 12 countries </h1>
+            <p> Poland, Brazil, Mexico, Spain, Italy, Turkey, Colombia, Czech Republic, Portugal, Argentina, Peru and Chile </p>
+        </div>
 
+        <div id="Appointments"> 
+            <h1> 4.8 million appointments </h1> 
+            <p> booked last month </p>
+        </div>
 
+        <div id="Unique">
+            <h1> 61.9 mln unique patients </h1>
+            <p> visit our websites each month </p>
+        </div>
 
+        <div id="Active">
+            <h1> 92.5k active doctors </h1>
+            <p> trust our solutions </p>
+        </div>
+    </section>
 
+    <center>
+        <section id="Section">
+            <h1>Improve the lives of millions. Change yours forever</h1>
+            <p> More than 1400 team mates share our same vision, goals and passion. With offices in Warsaw, Barcelona, Istanbul, Rome, Bologna, Mexico City and Curitiba, our search for great talent never stops.</p>
+        </section>
+    </center>
 
+    <div id="Cards3">
+    <div id="Warsaw" class="Cities">
+    <a href="https://www.docplanner.com/career?&loc=poland#jobs-offers"> <img src="https://www.docplanner.com/images/warsaw.png"> </a>
+    <p> Warsaw </p> 
+    <a href="https://www.docplanner.com/career?&loc=poland#jobs-offers"> <button class="button"> See openings </button> </a>
+    </div>
+    
+    <div id="Barcelona" class="Cities"> 
+    <a href="https://www.docplanner.com/career?&loc=spain#jobs-offers"> <img src="https://www.docplanner.com/images/barcelona.png"> </a>
+    <p> Barcelona </p>
+    <a href="https://www.docplanner.com/career?&loc=spain#jobs-offers"> <button class="button"> See openings </button> </a>
+    </div>
 
+    <div id="Istanbul" class="Cities">
+    <a href="https://www.docplanner.com/career?&loc=turkey#jobs-offers"><img src="https://www.docplanner.com/images/istanbul.png"> </a>
+    <p> Istanbul </p>
+    <a href="https://www.docplanner.com/career?&loc=turkey#jobs-offers"> <button class="button"> See openings </button> </a>
+    </div>
 
+    <div id="Rome" class="Cities">
+    <a href="https://www.docplanner.com/career?&loc=italy#jobs-offers"><img src="https://www.docplanner.com/images/rome.png"> </a>
+    <p> Rome </p>
+    <a href="https://www.docplanner.com/career?&loc=italy#jobs-offers"> <button class="button"> See openings </button> </a>
+    </div>
 
+    <div id="Bologna" class="Cities">
+    <a href="https://www.docplanner.com/career?&loc=italy#jobs-offers"><img src="https://www.docplanner.com/images/bologna.png"> </a>
+    <p> Bologna </p>
+    <a href="https://www.docplanner.com/career?&loc=italy#jobs-offers"> <button class="button"> See openings </button> </a>
+    </div>
+
+    <div id="Curitiba" class="Cities">
+    <a href="https://www.docplanner.com/career?&loc=brazil#jobs-offers"><img src="https://www.docplanner.com/images/curitiba.png"> </a>
+    <p> Curitiba </p>
+    <a href="https://www.docplanner.com/career?&loc=brazil#jobs-offers"> <button class="button"> See openings </button> </a>
+    </div>
+    
+    <div id="MexicoCity" class="Cities">
+    <a href="https://www.docplanner.com/career?&loc=mexico#jobs-offers"><img src="MexicoCityjpg.jpg" width="311" height="280"> </a>
+    <p>Mexico City </p> 
+    <a href="https://www.docplanner.com/career?&loc=mexico#jobs-offers"> <button class="button"> See openings </button> </a>
+    </div> 
+</div>
+</main>
+
+<br> <br>
+
+    <h1> Sounds interesting ? Join us now ! </h1>
+    <center>
+    <a href="https://www.docplanner.com/career"> <button id="btn"> See all current openings </button> </a>
+</center>
+
+<br> <br> <br> <br>
+<hr>
+
+        
     <footer>
+        <p>We are leaders in 11 countries:
+             <a href="https://www.znanylekarz.pl/?__hstc=94104962.cabb1ffee72a25bc0c3505d8aa3b0b85.1626272269266.1626281110355.1626295358224.4&__hssc=94104962.2.1626295358224&__hsfp=2547240761"> Poland,</a>
+             <a href="https://www.doktortakvimi.com/?__hstc=94104962.cabb1ffee72a25bc0c3505d8aa3b0b85.1626272269266.1626281110355.1626295358224.4&__hssc=94104962.2.1626295358224&__hsfp=2547240761"> Turkey,</a>
+             <a href="https://www.doctoralia.es/?__hstc=94104962.cabb1ffee72a25bc0c3505d8aa3b0b85.1626272269266.1626281110355.1626295358224.4&__hssc=94104962.2.1626295358224&__hsfp=2547240761"> Spain, </a>
+             <a href="https://www.miodottore.it/?__hstc=94104962.cabb1ffee72a25bc0c3505d8aa3b0b85.1626272269266.1626281110355.1626295358224.4&__hssc=94104962.2.1626295358224&__hsfp=2547240761"> Italy, </a>
+             <a href="https://www.znamylekar.cz/?__hstc=94104962.cabb1ffee72a25bc0c3505d8aa3b0b85.1626272269266.1626281110355.1626295358224.4&__hssc=94104962.2.1626295358224&__hsfp=2547240761"> Czech Republic, </a>
+             <a href="https://www.doctoralia.com.mx/?__hstc=94104962.cabb1ffee72a25bc0c3505d8aa3b0b85.1626272269266.1626281110355.1626295358224.4&__hssc=94104962.2.1626295358224&__hsfp=2547240761"> Mexico, </a>
+             <a href="https://www.doctoralia.co/?__hstc=94104962.cabb1ffee72a25bc0c3505d8aa3b0b85.1626272269266.1626281110355.1626295358224.4&__hssc=94104962.2.1626295358224&__hsfp=2547240761"> Colombia, </a>
+             <a href="https://www.doctoralia.com.br/?__hstc=94104962.cabb1ffee72a25bc0c3505d8aa3b0b85.1626272269266.1626281110355.1626295358224.4&__hssc=94104962.2.1626295358224&__hsfp=2547240761"> Brazil, </a>
+             <a href="https://www.doctoraliar.com/?__hstc=94104962.cabb1ffee72a25bc0c3505d8aa3b0b85.1626272269266.1626281110355.1626295358224.4&__hssc=94104962.2.1626295358224&__hsfp=2547240761">Argentina, </a> 
+             <a href="https://www.doctoralia.pe/?__hstc=94104962.cabb1ffee72a25bc0c3505d8aa3b0b85.1626272269266.1626281110355.1626295358224.4&__hssc=94104962.2.1626295358224&__hsfp=2547240761"> Peru </a> and
+             <a href="https://www.doctoralia.cl/?__hstc=94104962.cabb1ffee72a25bc0c3505d8aa3b0b85.1626272269266.1626281110355.1626295358224.4&__hssc=94104962.2.1626295358224&__hsfp=2547240761"> Chile</a>
+        </p>
+        <p> This site uses cookies to deliver services in accordance with this Privacy Policy. You can specify the conditions for storing or accessing cookies on your browser.</p>
+        <p> www.docplanner.com © 2021</p>
     </footer>
 </body>
