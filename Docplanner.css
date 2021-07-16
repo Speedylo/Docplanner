@@ -11,6 +11,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
+    
 }
 
 .navbar a {
@@ -22,6 +23,10 @@
 
 a:hover {
     color: #00b39b;
+}
+
+#list {
+    display: none;
 }
 
 #Aboutus, h1 {
@@ -123,7 +128,6 @@ select {
     justify-content: space-around;
     flex-wrap: wrap;
     width: 90%;
-
 }
 
 .button {
@@ -143,7 +147,6 @@ select {
     display: inline-block;
     width: 210px;
     height: 40px;
-    
 }
 
 footer{
@@ -164,34 +167,35 @@ footer{
     grid-template-rows: repeat(20, 5%);
 }
 
-
-#Middle h1 {
-    grid-column: 3 / 6;
-    grid-row: 1;
+#Middle h1  {
+    grid-column: 3 / 7;
+    grid-row: 3;
 }
 
 #Middle p {
-    grid-column: 3 / 6;
-    grid-row: 4;
+    display: inline;
+    grid-column: 3 / 8;
+    grid-row: 8;
 }
 
 #Leader {
-    grid-column: 9 / 11;
+    grid-column: 12 / 14;
     grid-row: 2;
 }
 
 #Appointments {
-    grid-column: 13 / 14;
+    grid-column: 16 / 17;
     grid-row: 2;
 }
 
 #Active {
-    grid-column: 9 / 11;
+    grid-column: 12 / 14;
     grid-row: 9;
+    width: 220px;
 }
 
 #Unique {
-    grid-column: 13 / 14;
+    grid-column: 16 / 17;
     grid-row: 9;
 }
 
@@ -213,5 +217,19 @@ footer{
     padding: 0;
 }
 
+#Leader, #Unique, #Appointments, #Active p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
+.Cities:hover {
+    animation: changement 2s;
+}
 
+@keyframes changement {
+    100% {color: rgb(0, 0, 0);}
+    75% {color: rgb(80, 80, 80);}
+    50% {color: rgb(126, 126, 126);}
+    25% {color: rgb(187, 187, 187);}
+    0% {color: white;}
+}
